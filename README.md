@@ -8,7 +8,7 @@ Repackaged deb file to include old Ubuntu libudev0 library for Debian Buster as 
 
 Where ls -l `libudev.so.0 -> libudev.so.0.13.0` is symbolic link points to library.
 
-`sudo apt install libpango1.0-0` is still needed to install the dpkg file
+`sudo apt install libpango1.0-0` is still needed to install the deb file via `dpkg -i file`
 
 Works on my Debian version 10.3 Buster
 
