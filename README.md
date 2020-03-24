@@ -1,4 +1,4 @@
-# redirt-debian-deb-file
+# reditr Debian deb file
 
 Removed libudev0 dependency from ../DEBIAN/control file and
 
