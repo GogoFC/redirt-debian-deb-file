@@ -16,4 +16,4 @@ Note: placing the library in `/opt/reditr` directory did not work for me it woul
 
 I do not know how to call the app from terminal or dmenu, it is installed in `/opt/reditr/` so I execute it from inside the install directory by `./reditr_app`
 
-Note 2: This deb file will install libudev0 along with libudev1 to `/lib/x86_64-linux-gnu`.  It sholud not conflict as `libudev.so -> libudev.so.1` and libudev.so.0 points to the old library.
+Note 2: This deb file will install libudev0 along with libudev1 to `/lib/x86_64-linux-gnu`.  It sholud not conflict as `libudev.so -> libudev.so.1` and `libudev.so.0` points to the old library.
