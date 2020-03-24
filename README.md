@@ -15,3 +15,5 @@ Works on my Debian version 10.3 Buster
 Note: placing the library in `/opt/reditr` directory did not work for me it would not find the library when started.
 
 I do not know how to call the app from terminal or dmenu, it is installed in `/opt/reditr/` so I execute it from inside the install directory by `./reditr_app`
+
+Note 2: This deb file will install libudev0 along with libudev1 to `/lib/x86_64-linux-gnu` and I have no idea if libudev0 conflicts with libudev1.
