@@ -11,3 +11,7 @@ Where ls -l `libudev.so.0 -> libudev.so.0.13.0` is symbolic link points to libra
 `sudo apt install libpango1.0-0` is still needed to install the dpkg file
 
 Works on my Debian version 10.3 Buster
+
+Note: placing the library in `/opt/reditr` directory did not work for me it would not find the library when started.
+
+I do not know how to call the app from terminal or dmenu, it is installed in `/opt/reditr/` so I execute it from inside the install directory by `./reditr_app`
